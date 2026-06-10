@@ -1,0 +1,17 @@
+# Dependencies for the two transpilation demo notebooks.
+#
+# The notebooks are PRE-EXECUTED and run fully OFFLINE (no IBM Cloud, no API token).
+# They were tested with Python 3.12 on the exact versions pinned below, so these
+# reproduce the saved outputs bit-for-bit. Any recent Qiskit 1.x generally works too.
+
+qiskit==1.3.2
+qiskit-aer==0.16.1
+qiskit-ibm-runtime==0.36.1     # provides the offline FakeTorino / FakeMarrakesh backends
+matplotlib>=3.8
+pylatexenc>=2.10               # required for circuit.draw("mpl")
+numpy>=1.26
+networkx>=3.0
+
+# For running the notebooks locally (VS Code supplies its own kernel; these are for `jupyter lab`):
+jupyterlab>=4.0
+ipykernel>=6.0
