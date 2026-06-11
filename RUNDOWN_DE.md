@@ -11,7 +11,7 @@
 | 6-16 | **5 ▶** | **DEMO 1: Bell durch 6 Stufen** (VS Code · Notebook 1) | init→layout→routing→translation→optimization→scheduling. Routing-Spiel: 1 SWAP = 3 CNOTs. Aus 1 Zwei-Qubit-Gatter werden 4. |
 | 16-19 | 6-7 | KI in der Transpilation: das Spiel + RL | „Statt fester Regeln lernt ein Modell, am günstigsten zu verdrahten." 4 CNOTs (96 Pkt.) schlägt 2 SWAPs + 1 CNOT (93 Pkt.). |
 | 19-26 | **8 ▶** | **DEMO 2: KI-Transpiler** (VS Code · Notebook 2) | QPM vs QTS vs SQR, vorgerechnet. Reihenfolge: Spiel → Fig 16 → Fig 18 (die drei Gruppen). |
-| 26-40 | 9-15 | Meine Thesis + Abschluss | Chip-Wechsel HH→Quadratgitter · Forschungsfrage · 69 Modelle (Subgraph-Extraktion) · bis 46 % · 3 Regime · Grenze · squarebench. Danke + Fragen. |
+| 26-40 | 9-16 | Meine Thesis + Abschluss | Chip-Wechsel HH→Quadratgitter · Forschungsfrage · 69 Modelle (Subgraph-Extraktion) · bis 46 % · 3 Regime · Grenze · squarebench. Danke + Fragen. |
 
 ## Schlüsselzahlen (auswendig)
 - **bis 46 %** weniger Zwei-Qubit-Tiefe auf strukturierten Schaltungen
